@@ -1,0 +1,27 @@
+name: Feature request
+description: An idea that would make Stroodle better for you.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please [search the open issues](https://github.com/baltermia/stroodle-ch/issues?q=is%3Aissue+label%3Aenhancement) first.
+        If someone already asked for it, add a 👍 to their issue instead.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's the problem?
+      description: What are you trying to do, and what makes it hard today?
+      placeholder: e.g. Before an exam I want to repeat only the questions I didn't know.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How could Stroodle solve it? Rough ideas are fine.
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Your school, subject or AI assistant, if it matters.

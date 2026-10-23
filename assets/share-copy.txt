@@ -1,0 +1,1 @@
+Moodle gives you a pile of PDFs every week. Stroodle hands them to your own AI over MCP, which turns them into one recap per module, with definitions, examples, pitfalls and questions to quiz you. It runs on the AI plan you already have: no API key, no extra AI costs. stroodle.ch

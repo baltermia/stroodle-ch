@@ -1,0 +1,50 @@
+name: Bug report
+description: Something in Stroodle doesn't work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Everything here is public: never paste your Moodle key, passwords or course materials.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: |
+        1. Opened the recap for week 4
+        2. Clicked "Show answer"
+        3. Nothing happened
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where in Stroodle?
+      options:
+        - Setup / Moodle connection
+        - Dashboard
+        - Recaps
+        - Deadlines
+        - Modules / settings
+        - Materials
+        - Connecting my AI
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: ai
+    attributes:
+      label: Which AI assistant?
+      description: Only if the bug happened while your AI was working with Stroodle.
+      placeholder: e.g. Claude (claude.ai), Claude Desktop
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: e.g. Firefox on Windows, Safari on iPhone
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: A screenshot often helps. Blur anything personal first.
